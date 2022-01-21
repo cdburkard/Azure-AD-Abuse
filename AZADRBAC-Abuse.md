@@ -23,7 +23,7 @@ Column descriptions:
 
 |         Azure AD Built-in Role       |         Abuse technique               | Impact| 
 |-----------|-------------------------------|-----------------------------|
-|Application Administrator| Application impersonation          |Assumption of application privileges            |
+|Application Administrator| Application impersonation          |Assumption of application permissions in directory, in customer directories, and on Azure resources   |
 |    Application Developer    | No known techniques| |
 | Attack Payload Author       | No known techniques| |
 | Attack Simulation Administrator       | No known techniques| |
