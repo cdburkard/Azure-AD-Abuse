@@ -31,7 +31,7 @@ Column descriptions:
 | Attribute Assignment Reader       | No known techniques| |
 | Attribute Definition Administrator       | No known techniques| |
 | Attribute Definition Reader       | No known techniques| |
-|Authentication Administrator         |Reset non-admin passwords         |Account takeover of non-admin account. May be used to take over an admin account with PIM enabled |
+|Authentication Administrator         |Reset non-admin passwords         |Account takeover of non-admin account. May be used to take over an admin account with PIM enabled, but this does not work if the PIMable account is a guest account |
 |Authentication Policy Administrator        |?         |?            |
 |Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator|
 |Azure DevOps Administrator        |? | ?|
