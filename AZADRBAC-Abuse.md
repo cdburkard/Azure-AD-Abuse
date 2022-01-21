@@ -35,19 +35,19 @@ Column descriptions:
 |Authentication Policy Administrator        |?         |?            |
 |Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator|
 |Azure DevOps Administrator        |? | ?|
-|Azure Information Protection Administrator        | | |
-|B2C IEF Keyset Administrator        | | |
-|B2C IEF Policy Administrator        | | |
-|Billing Administrator        | | |
-|Cloud App Security Administrator        | | |
-|Cloud Application Administrator        | | |
-|Cloud Device Administrator        | | |
+|Azure Information Protection Administrator        |? | |
+|B2C IEF Keyset Administrator        |No known techniques | |
+|B2C IEF Policy Administrator        |No known techniques | |
+|Billing Administrator        | ?| |
+|Cloud App Security Administrator        |? | |
+|Cloud Application Administrator        | ?| |
+|Cloud Device Administrator        |? | |
 |Compliance Administrator        | | |
 |Compliance Data Administrator        | | |
 |Conditional Access Administrator        | | |
 |Customer LockBox Access Approver        | | |
 |Desktop Analytics Administrator        | | |
-|Directory Readers    | | |
+|Directory Readers    |No known techniques | |
 |Directory Synchronization Accounts    | | |
 |Directory Writers    | | |
 |Domain Name Administrator    | | |
@@ -59,7 +59,7 @@ Column descriptions:
 |External ID User Flow Attribute Administrator    | | |
 |External Identity Provider Administrator    | | |
 |Global Administrator    | | |
-|Global Reader    | | |
+|Global Reader    |No known techniques | |
 |Groups Administrator    | | |
 |Guest Inviter    | | |
 |Helpdesk Administrator    | | |
