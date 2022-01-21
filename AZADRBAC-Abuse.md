@@ -35,9 +35,80 @@ Column descriptions:
 |Authentication Policy Administrator        |?         |?            |
 |Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator|
 |Azure DevOps Administrator        |? | ?|
-|        | | |
-|        | | |
-|        | | |
-|        | | |
-|        | | |
+|Azure Information Protection Administrator        | | |
+|B2C IEF Keyset Administrator        | | |
+|B2C IEF Policy Administrator        | | |
+|Billing Administrator        | | |
+|Cloud App Security Administrator        | | |
+|Cloud Application Administrator        | | |
+|Cloud Device Administrator        | | |
+|Compliance Administrator        | | |
+|Compliance Data Administrator        | | |
+|Conditional Access Administrator        | | |
+|Customer LockBox Access Approver        | | |
+|Desktop Analytics Administrator        | | |
+|Directory Readers    | | |
+|Directory Synchronization Accounts    | | |
+|Directory Writers    | | |
+|Domain Name Administrator    | | |
+|Dynamics 365 Administrator    | | |
+|Edge Administrator    | | |
+|Exchange Administrator    | | |
+|Exchange Recipient Administrator    | | |
+|External ID User Flow Administrator    | | |
+|External ID User Flow Attribute Administrator    | | |
+|External Identity Provider Administrator    | | |
+|Global Administrator    | | |
+|Global Reader    | | |
+|Groups Administrator    | | |
+|Guest Inviter    | | |
+|Helpdesk Administrator    | | |
+|Hybrid Identity Administrator    | | |
+|Identity Governance Administrator    | | |
+|Insights Administrator    | | |
+|Insights Business Leader    | | |
+|Intune Administrator    | | |
+|Kaizala Administrator    | | |
+|Knowledge Administrator    | | |
+|Knowledge Manager    | | |
+|License Administrator    | | |
+|Message Center Privacy Reader    | | |
+|Message Center Reader    | | |
+|Modern Commerce User    | | |
+|Network Administrator    | | |
+|Office Apps Administrator    | | |
+|Partner Tier1 Support    | | |
+|Partner Tier2 Support    | | |
+|Password Administrator    | | |
+|Power BI Administrator    | | |
+|Power Platform Administrator    | | |
+|Printer Administrator    | | |
+|Printer Technician    | | |
+|Privileged Authentication Administrator    | | |
+|Privileged Role Administrator    | | |
+|Reports Reader    | | |
+|Search Administrator    | | |
+|Search Editor    | | |
+|Security Administrator    | | |
+|Security Operator    | | |
+|Security Reader    | | |
+|Service Support Administrator    | | |
+|SharePoint Administrator    | | |
+|Skype for Business Administrator    | | |
+|Teams Administrator    | | |
+|Teams Communications Administrator    | | |
+|Teams Communications Support Engineer    | | |
+|Teams Communications Support Specialist    | | |
+|Teams Devices Administrator    | | |
+|Usage Summary Reports Reader    | | |
+|User Administrator    | | |
+|Windows 365 Administrator    | | |
+|Windows Update Deployment Administrator    | | |
+
+
+
+
+
+
+
 
