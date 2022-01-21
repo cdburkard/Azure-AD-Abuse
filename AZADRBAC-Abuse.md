@@ -21,9 +21,8 @@ Column descriptions:
 **Note: these techniques require that the attacker has compromised a user with the Azure AD role in the first column of the table. The initial compromise is not covered.**
 
 
-
 |         Azure AD Built-in Role       |         Abuse technique               | Impact| 
 |-----------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|Application Administrator| Application impersonation          |Assumption of application privileges            |
+|Authentication Administrator         |Reset non-admin passwords         |Account takeover of non-admin account            |
+|Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator|
