@@ -25,4 +25,6 @@ Column descriptions:
 |-----------|-------------------------------|-----------------------------|
 |Application Administrator| Application impersonation          |Assumption of application privileges            |
 |Authentication Administrator         |Reset non-admin passwords         |Account takeover of non-admin account            |
+|Authentication Policy Administrator        |?         |?            |
 |Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator|
+|Azure DevOps Administrator        |? | ?|
