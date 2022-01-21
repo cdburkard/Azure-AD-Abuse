@@ -24,7 +24,20 @@ Column descriptions:
 |         Azure AD Built-in Role       |         Abuse technique               | Impact| 
 |-----------|-------------------------------|-----------------------------|
 |Application Administrator| Application impersonation          |Assumption of application privileges            |
+|    Application Developer    | No known techniques| |
+| Attack Payload Author       | No known techniques| |
+| Attack Simulation Administrator       | No known techniques| |
+| Attribute Assignment Administrator       | No known techniques| |
+| Attribute Assignment Reader       | No known techniques| |
+| Attribute Definition Administrator       | No known techniques| |
+| Attribute Definition Reader       | No known techniques| |
 |Authentication Administrator         |Reset non-admin passwords         |Account takeover of non-admin account            |
 |Authentication Policy Administrator        |?         |?            |
 |Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator|
 |Azure DevOps Administrator        |? | ?|
+|        | | |
+|        | | |
+|        | | |
+|        | | |
+|        | | |
+
