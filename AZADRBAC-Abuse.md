@@ -1,9 +1,9 @@
 # Deducing the impact of a compromised Azure AD user assigned to a Built-In-Role
-Azure AD has an ever expanding number of built-in roles. A common question for both offensive and defensive security professionals is:
+Azure AD has an ever expanding set of built-in roles. Some common questions for both offensive and defensive security professionals are:
 
 "What happens if a user with Azure AD role XYZ is compromised? Should we alert on this? What is the worst case scenario? As a pentester, should I target users with this role?"
 
-This page seeks to answer these question in a simple and concise way.
+This page seeks to answer these question in a simple way.
 
 
 # Role matrix
