@@ -33,7 +33,7 @@ Column descriptions:
 | Attribute Definition Reader       | No known techniques| |
 |Authentication Administrator         |Reset non-admin passwords         |Account takeover of non-admin account. Cannot be used to take over an admin account with PIM eligibility enabled, as this is still considered an "admin account" |
 |Authentication Policy Administrator        |?         |?            |
-|Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator|
+|Azure AD Joined Device Local Administrator        |Azure AD joined device escalation | Take over any Azure AD joined device as a local administrator.|
 |Azure DevOps Administrator        |? | ?|
 |Azure Information Protection Administrator        |? | |
 |B2C IEF Keyset Administrator        |No known techniques | |
@@ -42,14 +42,14 @@ Column descriptions:
 |Cloud App Security Administrator        |? | |
 |Cloud Application Administrator        | ?| |
 |Cloud Device Administrator        |? | |
-|Compliance Administrator        | | |
-|Compliance Data Administrator        | | |
-|Conditional Access Administrator        | | |
-|Customer LockBox Access Approver        | | |
-|Desktop Analytics Administrator        | | |
+|Compliance Administrator        |No known techniques | |
+|Compliance Data Administrator        | No known techniques| |
+|Conditional Access Administrator        |backdoor conditional access policy | https://dirkjanm.io/assets/raw/Im%20in%20your%20cloud%20bluehat-v1.0.pdf|
+|Customer LockBox Access Approver        |No known techniques | |
+|Desktop Analytics Administrator        | unclear, but possible| |
 |Directory Readers    |No known techniques | |
-|Directory Synchronization Accounts    | | |
-|Directory Writers    | | |
+|Directory Synchronization Accounts    | ...many| |
+|Directory Writers    |dynamic group rule backdoor, privileged group membership addition, dynamic group abuse | |
 |Domain Name Administrator    | | |
 |Dynamics 365 Administrator    | | |
 |Edge Administrator    | | |
@@ -60,8 +60,8 @@ Column descriptions:
 |External Identity Provider Administrator    | | |
 |Global Administrator    | | |
 |Global Reader    |No known techniques | |
-|Groups Administrator    | | |
-|Guest Inviter    | | |
+|Groups Administrator    | group Takeover| |
+|Guest Inviter    | dynamic group abuse | |
 |Helpdesk Administrator    | | |
 |Hybrid Identity Administrator    | | |
 |Identity Governance Administrator    | | |
@@ -72,8 +72,8 @@ Column descriptions:
 |Knowledge Administrator    | | |
 |Knowledge Manager    | | |
 |License Administrator    | | |
-|Message Center Privacy Reader    | | |
-|Message Center Reader    | | |
+|Message Center Privacy Reader    | No known techniques| |
+|Message Center Reader    |No known techniques | |
 |Modern Commerce User    | | |
 |Network Administrator    | | |
 |Office Apps Administrator    | | |
@@ -84,14 +84,14 @@ Column descriptions:
 |Power Platform Administrator    | | |
 |Printer Administrator    | | |
 |Printer Technician    | | |
-|Privileged Authentication Administrator    | | |
-|Privileged Role Administrator    | | |
-|Reports Reader    | | |
+|Privileged Authentication Administrator    | Global Admin Account Takeover| |
+|Privileged Role Administrator    | Global Admin Assignment| |
+|Reports Reader    | No known techniques| |
 |Search Administrator    | | |
 |Search Editor    | | |
 |Security Administrator    | | |
 |Security Operator    | | |
-|Security Reader    | | |
+|Security Reader    |No known techniques | |
 |Service Support Administrator    | | |
 |SharePoint Administrator    | | |
 |Skype for Business Administrator    | | |
@@ -100,7 +100,7 @@ Column descriptions:
 |Teams Communications Support Engineer    | | |
 |Teams Communications Support Specialist    | | |
 |Teams Devices Administrator    | | |
-|Usage Summary Reports Reader    | | |
+|Usage Summary Reports Reader    |No known techniques | |
 |User Administrator    | | |
 |Windows 365 Administrator    | | |
 |Windows Update Deployment Administrator    | | |
